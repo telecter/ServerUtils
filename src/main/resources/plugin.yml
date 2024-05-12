@@ -16,12 +16,12 @@ commands:
   clientweather:
     usage: /clientweather <clear|rain>
     permission: op
-    description: Set the weather for you
+    description: Set the weather for your game client
   gui:
     usage: /gui <type>
     permission: op
     description: Open a specific Block GUI
   timer:
-    usage: /timer <length>
+    usage: /timer <seconds>
     permission: op
     description: Set a timer
