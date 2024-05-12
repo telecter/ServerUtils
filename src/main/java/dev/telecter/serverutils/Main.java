@@ -12,5 +12,6 @@ public class Main extends JavaPlugin {
         Bukkit.getPluginCommand("clientweather").setExecutor(new ClientWeatherCommand());
         Bukkit.getPluginCommand("gui").setExecutor(new GuiCommand());
         Bukkit.getPluginCommand("timer").setExecutor(new TimerCommand());
+        Bukkit.getPluginCommand("locateplayer").setExecutor(new LocatePlayerCommand());
     }
 }

@@ -25,3 +25,7 @@ commands:
     usage: /timer <seconds>
     permission: op
     description: Set a timer
+  locateplayer:
+    usage: /locateplayer <player>
+    permission: op
+    description: Check the location of another player

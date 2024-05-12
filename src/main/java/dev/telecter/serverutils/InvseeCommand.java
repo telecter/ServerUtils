@@ -19,6 +19,7 @@ public class InvseeCommand implements CommandExecutor {
             Player target = Bukkit.getPlayer(playerName);
             if (target == null) {
                 p.sendMessage(ChatColor.RED + "No player was found");
+                return false;
             }
             p.openInventory(target.getInventory());
             return true;
