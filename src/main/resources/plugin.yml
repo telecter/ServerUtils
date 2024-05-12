@@ -1,0 +1,27 @@
+name: ServerUtils
+version: 1.0.0
+api-version: 1.20
+main: dev.telecter.serverutils.Main
+description: Adds some extra commands and useful functionality.
+
+commands:
+  heal:
+    usage: /heal [player]
+    permission: op
+    description: Heal a player
+  invsee:
+    usage: /invsee <player>
+    permission: op
+    description: View the inventory of another player
+  clientweather:
+    usage: /clientweather <clear|rain>
+    permission: op
+    description: Set the weather for you
+  gui:
+    usage: /gui <type>
+    permission: op
+    description: Open a specific Block GUI
+  timer:
+    usage: /timer <length>
+    permission: op
+    description: Set a timer
